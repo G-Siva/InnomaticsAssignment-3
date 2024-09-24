@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 13px;
+    text-align: center;
+}
+
+th {
+    background-color: yellow;
+}
+
+.home-cell {
+    background-color: magenta;
+    text-align: center;
+}
+
+.time-column {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.header-row {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.big-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: yellow;
+    padding: 13px;
+    border: 1px solid black;
+}
+
+body {
+    background-image: url('your-image.jpg'); /* Path to your image file */
+    background-size: cover; /* Ensures the background image covers the whole page */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Sets a basic font for text */
+}
